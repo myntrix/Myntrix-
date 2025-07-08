@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Myntrix – Le digital des marques qui se démarquent</title>
+  <style>
+    :root {
+      --bleu-nuit: #0c0e22;
+      --violet-profond: #3d2c8d;
+      --gris-metal: #c0c0c0;
+      --blanc: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bleu-nuit);
+      color: var(--blanc);
+    }
+
+    header {
+      background: linear-gradient(to right, var(--bleu-nuit), var(--violet-profond));
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: '';
+      background: url('https://www.transparenttextures.com/patterns/circles.png');
+      opacity: 0.06;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 700;
+      color: var(--gris-metal);
+    }
+
+    p.slogan {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 10px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 80px;
+      background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+      background-size: cover;
+      background-blend-mode: overlay;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .hero button {
+      background-color: var(--violet-profond);
+      color: var(--blanc);
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #4b34a3;
+    }
+
+    footer {
+      text-align: center;
+      background: #111222;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/tonutilisateur/myntrix/main/logo-myntrix.png" alt="Logo Myntrix" class="logo" />
+    <h1>MYNTRIX</h1>
+    <p class="slogan">Le digital des marques qui se démarquent</p>
+  </header>
+
+  <section class="hero">
+    <h2>Un digital élégant, efficace et à votre portée.</h2>
+    <button>Réservez votre diagnostic gratuit</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Myntrix – Tous droits réservés
+  </footer>
+</body>
+</html>
